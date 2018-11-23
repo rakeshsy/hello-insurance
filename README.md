@@ -6,7 +6,7 @@ Start the Spring Boot Application.
 ### Test Case #1 - retrieve Agent details of Agent Id '1'
 
 request: 
-GET http://localhost:8090/insurance/api/agent/1
+GET `http://localhost:8090/insurance/api/agent/1`
 
 response: 
 {
