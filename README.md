@@ -4,14 +4,14 @@
 ## Steps
 
 1. Start the Spring Boot application.
-2. Test the application.
+2. Test the application - http://localhost:8090/insurance/api/
 
 ## Test Cases
 
 ### TC#1 - retrieve Agent details of Agent Id '1'
 
 request: 
-GET `http://localhost:8090/insurance/api/*agent*/1`
+GET `http://localhost:8090/insurance/api/agent/1`
 
 response: 
 ```
@@ -33,7 +33,7 @@ response:
 ### TC#2 - retrieve Agent details of Agent Id '2'
 
 request: 
-GET `http://localhost:8090/insurance/api/*agent/2*`
+GET `http://localhost:8090/insurance/api/agent/2`
 
 response: 
 ```
