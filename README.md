@@ -8,7 +8,7 @@
 
 ## Test Cases
 
-### Test Case #1 - retrieve Agent details of Agent Id '1'
+### TC#1 - retrieve Agent details of Agent Id '1'
 
 request: 
 GET `http://localhost:8090/insurance/api/agent/1`
@@ -28,7 +28,7 @@ response:
   }
 }
 
-### Test Case #2 - retrieve Agent details of Agent Id '2'
+### TC#2 - retrieve Agent details of Agent Id '2'
 
 request: 
 GET `http://localhost:8090/insurance/api/agent/2`
@@ -47,7 +47,7 @@ response:
   }
 }
 
-### Test Case #3 - retrieve Agent details of invalid Agent Id, say '3'
+### TC#3 - retrieve Agent details of invalid Agent Id, say '9'
 
 request: 
 GET `http://localhost:8090/insurance/api/agent/3`
@@ -56,11 +56,11 @@ response:
 {
   "error": {
     "code": "E0001",
-    "message": "Invalid Agent Id - 3"
+    "message": "Invalid Agent Id - 9"
   }
 }
 
-### Test Case #4 - retrieve details of all Agents
+### TC#4 - retrieve details of all Agents
 
 request: 
 GET `http://localhost:8090/insurance/api/agent`
