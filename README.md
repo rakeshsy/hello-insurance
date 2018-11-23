@@ -1,7 +1,10 @@
 # hello-insurance
 ---
 
-Start the Spring Boot Application.
+### Steps
+
+1. Start the Spring Boot application.
+2. Test the application.
 
 ### Test Case #1 - retrieve Agent details of Agent Id '1'
 
