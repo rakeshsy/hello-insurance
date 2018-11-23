@@ -50,7 +50,7 @@ response:
 ### TC#3 - retrieve Agent details of invalid Agent Id, say '9'
 
 request: 
-GET `http://localhost:8090/insurance/api/agent/3`
+GET `http://localhost:8090/insurance/api/agent/9`
 
 response: 
 {
