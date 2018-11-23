@@ -4,7 +4,7 @@
 2. Test the application
 
 
-2.1 retrieve Agent details of Agent Id '1'.
+Case1: retrieve Agent details of Agent Id '1'.
 request: GET http://localhost:8090/insurance/api/agent/1
 response: 
 {
