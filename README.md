@@ -26,7 +26,7 @@ response:
 ### Test Case #2 - retrieve Agent details of Agent Id '2'
 
 request: 
-GET http://localhost:8090/insurance/api/agent/2
+GET `http://localhost:8090/insurance/api/agent/2`
 
 response: 
 {
@@ -45,7 +45,7 @@ response:
 ### Test Case #3 - retrieve Agent details of invalid Agent Id, say '3'
 
 request: 
-GET http://localhost:8090/insurance/api/agent/3
+GET `http://localhost:8090/insurance/api/agent/3`
 
 response: 
 {
@@ -58,7 +58,7 @@ response:
 ### Test Case #4 - retrieve details of all Agents
 
 request: 
-GET http://localhost:8090/insurance/api/agent
+GET `http://localhost:8090/insurance/api/agent`
 
 response: 
 {
@@ -86,13 +86,3 @@ response:
     }
   ]
 }
-
-
-
-
-
-
-
-
-
-
