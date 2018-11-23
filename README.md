@@ -33,7 +33,7 @@ response:
 ### TC#2 - retrieve Agent details of Agent Id '2'
 
 request: 
-GET `http://localhost:8090/insurance/api/agent/2`
+GET `http://localhost:8090/insurance/api/*agent/2*`
 
 response: 
 ```
