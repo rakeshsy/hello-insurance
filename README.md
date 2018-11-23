@@ -23,6 +23,43 @@ response:
   }
 }
 
+### Test Case #2 - retrieve Agent details of Agent Id '2'
+
+request: 
+GET http://localhost:8090/insurance/api/agent/2
+
+response: 
+{
+  "agent": {
+    "agentId": 2,
+    "agentName": "Immo",
+    "agentAddress": {
+      "addr1": "5800 Northampton Blvd",
+      "city": "Norfolk",
+      "state": "VA",
+      "zip": 23502
+    }
+  }
+}
+
+### Test Case #3 - retrieve Agent details of invalid Agent Id, say '3'
+
+request: 
+GET http://localhost:8090/insurance/api/agent/3
+
+response: 
+{
+  "error": {
+    "code": "E0001",
+    "message": "Invalid Agent Id - 3"
+  }
+}
+
+
+
+
+
+
 
 
 
