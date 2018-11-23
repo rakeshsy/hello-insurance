@@ -14,6 +14,7 @@ request:
 GET `http://localhost:8090/insurance/api/agent/1`
 
 response: 
+```
 {
   "agent": {
     "agentId": 1,
@@ -27,6 +28,7 @@ response:
     }
   }
 }
+```
 
 ### TC#2 - retrieve Agent details of Agent Id '2'
 
