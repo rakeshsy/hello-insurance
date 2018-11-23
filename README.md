@@ -4,7 +4,7 @@
 ## Steps
 
 1. Start the Spring Boot application.
-2. Test the application - http://localhost:8090/insurance/api/
+2. Test the application - 'http://localhost:8090/insurance/api/'
 
 ## Test Cases
 
