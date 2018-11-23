@@ -1,7 +1,7 @@
 # hello-insurance
 
-1. Start the Spring Boot Application.
-2. Test the application
+Start the Spring Boot Application.
+Test the application
 
 
 ### Case1 - retrieve Agent details of Agent Id '1'
@@ -9,7 +9,6 @@
 request: 
 GET http://localhost:8090/insurance/api/agent/1
 
-response:
 response: 
 {
   "agent": {
